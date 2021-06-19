@@ -7,6 +7,12 @@ import scrapy
 
 
 class CodegreppercrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    code = scrapy.Field()
+    date = scrapy.Field()
+    vote = scrapy.Field()
+    tags = scrapy.Field()
+    posted_by = scrapy.Field()
+    source_name = scrapy.Field()
+    source_url = scrapy.Field()
+
